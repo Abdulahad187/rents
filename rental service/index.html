@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxCar Rentals - Luxury Car Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="image.jpg" alt="LuxCar Rentals"></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#fleet">Our Fleet</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="facebook"><img src="Facebook-logo.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/a.ahad._/?hl=en" target="instagram"><img src="instagram.png" alt="instagram"></a>
+            </div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Your Gateway to Luxury Travel</h1>
+            <p>Experience unparalleled comfort and style with our premium car rental service.</p>
+            <a href="#services" class="cta-button">Explore Our Services</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At LuxCar Rentals, we provide a seamless luxury car rental experience tailored to your needs. Whether for business or leisure, our fleet of high-end vehicles and professional chauffeurs ensure a journey of elegance and sophistication.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Chauffeur Service</h3>
+                <p>Travel in comfort and style with our professional chauffeur service, designed to provide you with a smooth and hassle-free experience.</p>
+                <button class="card-button">Learn More</button>
+            </div>
+            <div class="card">
+                <h3>Luxury Car Rental</h3>
+                <img src="image  2.jpg" alt="Luxury Car Rental">
+                <p>Choose from our exclusive fleet of luxury cars, including sedans, SUVs, and sports cars, all meticulously maintained for your comfort and safety.</p>
+                <button class="card-button">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="fleet">
+        <h2>Our Fleet</h2>
+        <div class="fleet-gallery">
+            <div class="car">
+                <img src="image 3.jpg" alt="Luxury Sedan">
+                <h3>Luxury Sedan</h3>
+                <p>Experience the ultimate in comfort with our top-of-the-line sedans.</p>
+                <button class="car-button">Book Now</button>
+            </div>
+            <div class="car">
+                <img src="SUV.jpg" alt="SUV">
+                <h3>SUV</h3>
+                <p>Perfect for family trips or business meetings, our SUVs offer both style and space.</p>
+                <button class="car-button">Book Now</button>
+            </div>
+            <div class="car">
+                <img src="Sports.jpg" alt="Sports Car">
+                <h3>Sports Car</h3>
+                <p>Feel the thrill of the road with our high-performance sports cars.</p>
+                <button class="car-button">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <div id="chatbot">
+        <div id="chatbot-header">Chat with us!</div>
+        <div id="chatbot-messages"></div>
+        <input id="chatbot-input" type="text" placeholder="Type your message...">
+        <button id="chatbot-send">Send</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
